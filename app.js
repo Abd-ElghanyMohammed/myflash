@@ -1523,7 +1523,7 @@ function getErrorMessage(errorCode) {
     switch (errorCode) {
         case 'auth/invalid-email':
             return 'Invalid email address';
-        case 'auth/u    ser-disabled':
+        case 'auth/user-disabled':
             return 'This user account has been disabled';
         case 'auth/user-not-found':
             return 'No user found with this email';
@@ -3776,3 +3776,4 @@ function mergeImportData(importedProducts, replace) {
     }
 }
 
+}
